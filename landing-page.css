@@ -54,7 +54,6 @@ body {
     width: 100%;
     margin-right: 20%;
     padding-bottom: 6rem;
-
 }
 
 .next {
@@ -84,9 +83,13 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    text-align: center;
     justify-content: space-evenly;
     width: 100%;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    margin: 20px;
 }
 
 .faq {
@@ -94,7 +97,9 @@ body {
 }
 
 .mac-ios {
+    width: 100%;
     text-align: center;
+    padding: 30px;
 }
 
 ul {
@@ -102,9 +107,7 @@ ul {
     align-items: center;
     text-align: center;
     gap: 12rem;
-    border: 2px yellow solid;
     margin: 0 auto;
-
 }
 
 li {
@@ -198,7 +201,12 @@ a {
 
 
 .two-buttons {
-    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 20px;
+    width: 100%;
 }
 
 .subhead {
@@ -280,11 +288,7 @@ a {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 300px;
     width: 100%;
-    text-align: center;
-
-
 }
 
 .blacklists {
@@ -292,14 +296,11 @@ a {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    width: 50%;
-
-
+    width: 100%;
 }
 
-.snip {
-    justify-content: center;
-    text-align: center;
+.container5 {
+    width: 90%;
 }
 
 .plain {
@@ -311,8 +312,10 @@ a {
 }
 
 .icons {
-    padding-bottom: 90px;
+    /* padding-bottom: 90px; */
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -321,13 +324,13 @@ a {
 }
 
 .free {
-    padding-bottom: 30px;
+    width: 100%;
 
 }
 
 .mac-ios {
-    margin: 0 auto;
-    width: 30%;
+    margin-top: 70px;
+    width: 100%;
 }
 
 .button1 {
@@ -351,9 +354,20 @@ a {
     .two-buttons {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 20px;
     }
 
+    .container {
+        width: 100%;
+    }
+
+    .app {
+        overflow: hidden;
+    }
 
     .snippet {
         display: flex;
@@ -364,11 +378,10 @@ a {
         margin: 0 auto;
         padding: 0 0;
         width: 100%;
-
     }
 
     .snippet .box {
-        width: 100%;
+        width: 95%;
     }
 
     .next-part {
@@ -376,6 +389,14 @@ a {
         flex-direction: column;
         text-align: center;
         justify-content: center;
+        width: 100%;
+    }
+
+    .box6 {
+        width: 100%;
+    }
+
+    .blacklists {
         width: 100%;
     }
 
@@ -396,4 +417,56 @@ a {
         justify-content: center;
     }
 
+    .container5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .access {
+        width: 95%;
+        margin: auto;
+    }
+
+    .next-part1 {
+        width: 95%;
+        margin: auto;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mac-ios {
+        width: 95%;
+        text-align: center;
+    }
+
+    .foot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 20px;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        justify-content: center;
+        padding: 20px;
+    }
 }
